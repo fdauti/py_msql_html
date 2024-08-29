@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Registration</title>
+</head>
+<body>
+    <h3>Register Product Webform</h3>
+    <!--Ad Form Tag--><!--Redirect to html page-->
+    <form  method="POST" action="reg_prod.py">
+        <fieldset>
+            <legend>Fill all form details:</legend>
+            <!--Ad Form Fields-->
+            <p>
+                Your Username: <input type="text" name="username"/>
+            </p>
+            <p>
+                Product Name: <input type="text" name="prod_name"/>
+            </p>
+            <p>
+                Serial Number: <input type="text" name="serial_no"/>
+            </p>
+            <p>
+                Purchase Date: <input type="date" name="purch_date"/>
+            </p>
+        </fieldset>
+        <input type="submit" value="Insert product"/> 
+</body>
+</html>

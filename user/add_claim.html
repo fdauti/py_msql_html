@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claim Submission</title>
+</head>
+<body>
+    <h3>Claim Submission Webform</h3>
+    <!--Ad Form Tag--><!--Redirect to html page-->
+    <form  method="POST" action="add_claim.py">
+        <fieldset>
+            <legend>Fill all form details:</legend>
+            <!--Ad Form Fields-->
+            <p>
+                Your Username: <input type="text" name="username"/>
+            </p>
+            <p>
+                Product Serial Number: <input type="text" name="serial_no"/>
+            </p>
+            <p>
+                Date of claim: <input type="date" name="claim_date"/>
+            </p>
+            <p>
+                Date of purchase: <input type="date" name="purch_date"/>
+            </p>
+            <p>
+                Claim description (max 200 characters):<br>
+                <textarea cols="40" rows="5" name="description"></textarea>
+            </p>
+        </fieldset>
+        <input type="submit" value="Add Claim"/> 
+</body>
+</html>

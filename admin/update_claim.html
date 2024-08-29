@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claim Update</title>
+</head>
+<body>
+    <h3>Claim Update Webform</h3>
+    <!--Ad Form Tag--><!--Redirect to html page-->
+    <form  method="POST" action="update_claim.py">
+        <fieldset>
+            <legend>Fill all form details:</legend>
+            <!--Ad Form Fields-->
+            <p>
+                Claim ID number: <input type="number" name="claim_id"/>
+            </p>
+            <p>
+                Approval status: 
+                <select name="approval"> 
+                    <option value="null"></option>
+                    <option value="approved">Approved</option>
+                    <option value="rejected">Rejected</option>
+                </select>
+            </p>
+        </fieldset>
+        <input type="submit" value="Update Claim"/> 
+</body>
+</html>
