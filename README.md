@@ -18,4 +18,10 @@ b. Add proper form sanitization/validation and prevent SQL injection and passwor
 5) The company asks you to provide the following functionalities for the Web site Administrator user. There is one Admin user which can log in into the web application and perform the followings tasks:  
 a. Can see all user accounts (or do SEARCH to find a specific user account)  
 b. Can see all registered products by user (or do SEARCH to find a specific product)  
-c. The Admin user can see the list of recent claims and update their status (approved/rejected).  
+c. The Admin user can see the list of recent claims and update their status (approved/rejected).
+
+### Click the image below for a demonstration video on YouTube
+
+[![image](https://github.com/user-attachments/assets/8d615bd0-16e7-4495-95ab-2a9c956fdc44)](https://youtu.be/hrf-JvBHW5U)
+
+
